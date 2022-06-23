@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{ 
+    font-family: sans-serif;
+   }
+
+ body{
+     background-color: #FFFFFF;
+ }  
+.header{
+    margin: auto 10px;
+    padding: 10px 20px;
+    box-shadow:0 0 2px 0 rgb(114,114,114);
+    display: flex;
+    align-items: center;
+}
+
+.header h1{
+    font-size: 1.5rem;
+    margin-left: 10px;
+    
+}
+
+form {
+    position: relative;
+    width: 600px;
+    margin: 32px auto 50px auto;
+    background-color: #fff;
+    padding: 7px;
+    border-radius: 7px;
+    box-shadow: 0 1px 7px rgb(128,128,128);
+}
+form input{
+    width: 100%;
+    border: none;
+    padding: 4px 10px;
+    margin-bottom: 20px;
+    outline: none;
+    font-size: 1rem;
+    resize: none;
+}
+form textarea{
+    width: 100%;
+    border: none;
+    padding: 4px 10px;
+    
+    outline: none;
+    font-size: 1rem;
+    resize: none;
+}
+
+.note{
+    background: #fff;
+    width: 240px;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px rgb(175, 175,175);
+    padding: 10px;
+    margin: 16px;
+    float: left;
+}
+.note h1{
+    font-size: 1rem;
+    margin-bottom: 6px;
+}
+
+.note p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+form button {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 18px;
+    bottom: -18px;
+    background: orange;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+   }
+   .deleteB{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 18px;
+    bottom: -18px;
+    background: orange;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;}
+   
